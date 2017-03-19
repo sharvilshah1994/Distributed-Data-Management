@@ -23,7 +23,7 @@ Identification of 50 most statistically significant dropoff locations by passeng
 2. Units of Z: 1 day.
 
 ## Output
-A JAR file with all dependencies which would be called like this from apache spark.
+A JAR file with all dependencies which would be called like as shown below from apache spark. This would generate a csv with top 50 hotspots listed.
 ```
 ./spark-submit --class com.dds.Hot_Spot.Hotspots /path_to/Hot_Spot.jar "/path_to/input.csv" "/path_to/output.csv"
 ```
