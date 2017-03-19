@@ -1,0 +1,11 @@
+
+
+
+Main Class Name: 	Hotspots
+Package Name:		com.dds.phase3
+
+Below is the command to compile and run the submitted code:
+-----------------------------------------------------------
+
+
+./spark-submit --class com.dds.phase3.Hotspots /path_to/phase3.jar "/path_to/yellow.csv" "/path_to/output.csv"
