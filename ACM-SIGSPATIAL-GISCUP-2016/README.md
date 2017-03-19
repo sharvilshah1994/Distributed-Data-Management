@@ -14,7 +14,7 @@ With the advent of the ubiquitous collection of spatio-temporal observational da
 Identification of 50 most statistically significant dropoff locations by passenger count in both time and space using the Getis-Ord statistic along with the utilization of Apache Spark open source cluster computing framework.
 
 ## Procedure
-1. Organize given data into a 3D Cube Model where X: Latitude, Y: Longitute, Z: Day. Here Z varies from January 1 - January 31.
+1. Organize given data into a 3D Cube Model where X: Latitude, Y: Longitude & Z: Day. Here X ~ [40.5N to 40.9N], Y ~ [-73.7W to -74.25W] & Z ~ [January 1 to January 31].
 2. Find Z-score of each cell.
 3. Extract cells with top 50 Z-scores.
 
