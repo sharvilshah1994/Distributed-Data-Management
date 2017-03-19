@@ -1,5 +1,5 @@
 # Hot Spot Analysis (Getis-Ord Gi*) (Spatial Statistics)
-This project is an implementation of ACM's 5th Annual GIS-focused algorithm competition (***ACM-SIGSPATIAL-GISCUP-2016***).The Problem Definition page is here: http://sigspatial2016.sigspatial.org/giscup2016/problem.
+This project is an implementation of ACM's 5th Annual GIS-focused algorithm competition (**ACM-SIGSPATIAL-GISCUP-2016**).The Problem Definition page is here: http://sigspatial2016.sigspatial.org/giscup2016/problem.
 
 ## Motto
 With the advent of the ubiquitous collection of spatio-temporal observational data (e.g., vehicle tracking data), the identification of unusual patterns of data in a statistically significant manner has become a key problem that numerous businesses and organizations are attempting to solve.
