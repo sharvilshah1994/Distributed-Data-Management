@@ -24,8 +24,9 @@ Identification of 50 most statistically significant dropoff locations by passeng
 
 ## Output
 A JAR file with all dependencies which would be called like this from apache spark.
+```
 ./spark-submit --class com.dds.Hot_Spot.Hotspots /path_to/Hot_Spot.jar "/path_to/input.csv" "/path_to/output.csv"
-
+```
 ## Folder Description
 1. input.csv: The Input file.
 2. Hot_Spot.jar: The Output jar.
