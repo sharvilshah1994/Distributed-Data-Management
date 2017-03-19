@@ -5,6 +5,12 @@ This project is an implementation of ACM's 5th Annual GIS-focused algorithm comp
 With the advent of the ubiquitous collection of spatio-temporal observational data (e.g., vehicle tracking data), the identification of unusual patterns of data in a statistically significant manner has become a key problem that numerous businesses and organizations are attempting to solve.
 
 ## Input
+The source data is freely available for download in CSV format from the New York City Taxi and Limousine Commission (NYC TLC):
+
+http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml
+
+Consider data of January 2016
+
 1. Subset of New York City Taxi and Limousine Commission Yellow Cab trip data.
 2. Around 1 Billion Records (e.g., latitude 40.5N – 40.9N, longitude 73.7W – 74.25W).
 3. Each record in the dataset contains key information such as pickup and dropoff date, time, and location (latitude, longitude), trip distance, passenger count, and fare amount.
@@ -28,7 +34,6 @@ A JAR file with all dependencies which would be called like as shown below from 
 ./spark-submit --class com.dds.Hot_Spot.Hotspots /path_to/Hot_Spot.jar "/path_to/input.csv" "/path_to/output.csv"
 ```
 ## Folder Description
-1. input.csv: The Input file.
-2. Hot_Spot.jar: The Output jar.
-3. Hotspots_result.csv: Top 50 hotspots extracted by the Hot_Spot.jar from input.csv.
-4. Source: Folder containing source code.
+1. Hot_Spot.jar: The Output jar.
+2. Hotspots_result.csv: Top 50 hotspots extracted by the Hot_Spot.jar from input.csv.
+3. Source: Folder containing source code.
